@@ -33,19 +33,19 @@ const certificates = [
     id: 1,
     name: "Algorithmic Logic (C Language)",
     description: "Certificate of training in algorithmic logic using the C programming language. This course provides a deep understanding of fundamental programming concepts and algorithm development.",
-    image: Logic
+    image: Logika
   },
   {
     id: 2,
     name: "Data Structures (C Language)",
     description: "Certificate of training in data structures using the C programming language. This course covers essential data structures and their implementation, enhancing problem-solving skills.",
-    image: Structure
+    image: Struktur
   },
   {
     id: 3,
     name: "Database Management (MySQL)",
     description: "Certificate of training in database management using MySQL. This course provides comprehensive knowledge of database design, queries, and management techniques.",
-    image: Database
+    image: Basis
   },
   {
     id: 4,
@@ -75,19 +75,19 @@ const certificates = [
     id: 8,
     name: "React (Frontend Development)",
     description: "Certificate of training in React for frontend web development. This course teaches how to create dynamic and high-performance user interfaces.",
-    image: React
+    image: Reacts
   },
   {
     id: 9,
     name: "Java Fundamentals Instructor",
     description: "Certificate of recognition as an instructor for Java Fundamentals. This certification acknowledges the ability to teach and guide students in Java programming.",
-    image: JavaInstructor
+    image: InstrukturJava
   },
   {
     id: 10,
     name: "Git/GitHub Instructor",
     description: "Certificate of recognition as an instructor for Git and GitHub. This certification highlights expertise in version control systems and the ability to educate others.",
-    image: GitInstructor
+    image: InstrukturGithub
   }
 ];
 
@@ -124,7 +124,7 @@ const projects = [
     name: "Tiket Go",
     description: "This cinema ticket booking project allows users to select movies, choose cinema seats, and make ticket reservations and payments. It was created as a final project for advanced Java training, implementing Java Spring Boot with IntelliJ IDEA in a group of two.",
     link: "https://github.com/anggipermana111/UasJavaLanjutan",
-    image: Ticket,
+    image: Tiket,
     view: null,
     tech: ["Java", "Spring Boot", "JavaScript", "React", "Tailwind CSS", "MySQL"]
   },
