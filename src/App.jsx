@@ -31,25 +31,25 @@ export const ThemeContext = createContext({
 const certificates = [
   {
     id: 1,
-    nama: "Logika Algoritma (C Language)",
+    nama: "Algorithmic Logic (C Language)",
     deskripsi: "Certified in mastering algorithmic logic using the C programming language, demonstrating a strong foundation in problem-solving and computational thinking.",
     gambar: Logika
   },
   {
     id: 2,
-    nama: "Struktur Data (C Language)",
+    nama: "Data Structure (C Language)",
     deskripsi: "Certified in data structure proficiency using the C programming language, showcasing expertise in efficient data organization and manipulation.",
     gambar: Struktur
   },
   {
     id: 3,
-    nama: "Basis Data (MySql)",
+    nama: "Database (MySql)",
     deskripsi: "Certified in MySQL database management, highlighting skills in designing, implementing, and optimizing robust database solutions.",
     gambar: Basis
   },
   {
     id: 4,
-    nama: "Web Dasar (HTML, CSS, Javascript)",
+    nama: "Web Fundamental",
     deskripsi: "Certified in fundamental web development using HTML, CSS, and JavaScript, demonstrating the ability to create dynamic and responsive web interfaces.",
     gambar: Web
   },
@@ -61,7 +61,7 @@ const certificates = [
   },
   {
     id: 6,
-    nama: "Advanced Java (Springboot for Backend)",
+    nama: "Advanced Java (Springboot Backend)",
     deskripsi: "Certified in advanced Java development using Spring Boot for backend API creation, demonstrating expertise in building scalable and efficient backend services.",
     gambar: Spring
   },
@@ -79,13 +79,13 @@ const certificates = [
   },
   {
     id: 9,
-    nama: "Instruktur Java Fundamental",
+    nama: "Instructor Java Fundamental",
     deskripsi: "Certified as an instructor in Java Fundamentals, recognized for the ability to teach and mentor others in core Java programming concepts.",
     gambar: InstrukturJava
   },
   {
     id: 10,
-    nama: "Instruktur Git/Github",
+    nama: "Instructor Git/Github",
     deskripsi: "Certified as an instructor in Git and GitHub, acknowledged for expertise in guiding teams on version control best practices and collaborative workflows.",
     gambar: InstrukturGithub
   },
