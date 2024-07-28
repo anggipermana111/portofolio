@@ -14,9 +14,17 @@ function Projects() {
                                     <img src={project.gambar} alt={project.nama} className='rounded w-full aspect-video' />
                                     <figcaption className='p-1 flex flex-col gap-1'>
                                         <h1 className='font-bold text-xl text-center'>{project.nama}</h1>
-                                        <p className='text-justify h-14'>
+                                        <p className='text-justify text-xs h-28'>
                                             {project.deskripsi}
                                         </p>
+                                        <h3 className="text-center text-xl">Tech Stack</h3>
+                                        <div className="flex flex-wrap gap-2 justify-center h-14 items-baseline">
+                                            {
+                                                project.tech.map((tech)=>{
+                                                    return <div className="px-2 py-1 text-xs rounded-2xl bg-pink-500">{tech}</div>
+                                                })
+                                            }
+                                        </div>
                                         <div className='mt-6 flex justify-between'>
                                             {
                                                 project.link && <a href={project.link} target='_blank'>

@@ -95,58 +95,64 @@ const projects = [
   {
     id: 1,
     nama: "Koperasi",
-    deskripsi: "ini adalah projek pertama saya, dan dibuat dengan sepenuh hati secara maksimal",
+    deskripsi: "Project koperasi simpan pinjam ini mencakup kelola data anggota koperasi, simpanan anggota, pinjaman anggota data angsuran dari setiap anggota, program ini adalah program project akhir pelatihan logika algoritma saya yang mengimplementasikan seluruh dasar logika pemrograman yang telah diajarkan dalam bentuk project console",
     link: "https://github.com/anggipermana111/koperasi-anggi-projekan-bahasa-C",
     gambar: Koperasi,
-    view: null
+    view: null,
+    tech: ["C Language"]
   },
   {
     id: 2,
     nama: "Tricksters Movies",
-    deskripsi: "ini adalah projek website pertama saya, dan dibuat dengan sepenuh hati secara maksimal",
+    deskripsi: "Project ini menampilkan mengenai film, seperti gambar poster film, deskripsi, rating, aktor, video trailer dan semua data yang berhubungan mengenai film berdasarkan API dari TMDB (API eksternal), project ini dibuat sebagai tugas akhir pelatihan WEB dasar dengan mengimplementasikan HTML, CSS, dan Javascript ke dalam project website",
     link: "https://github.com/anggipermana111/projek-movie",
     gambar: Movie,
     view: 'https://trickstersmovie.000webhostapp.com/',
-
+    tech: ["HTML", "CSS", "Javascript"]
   },
   {
     id: 3,
     nama: "Monica Jaya",
-    deskripsi: "ini adalah projek desktop pertama saya, dan dibuat dengan sepenuh hati secara maksimal",
+    deskripsi: "Project ini adalah project untuk mengelola inventary barang di toko bangunan, project ini dibuat sebagai tugas akhir pelatihan Java dasar dengan mengimplementasikan Java swing menggunakan IDE netbeans ke dalam project desktop",
     link: "https://github.com/anggipermana111/projektokobangunan",
     gambar: Inventory,
-    view: null
+    view: null,
+    tech: ["Java", "Swing", "MySQL"]
   },
   {
     id: 4,
     nama: "Tiket Go",
-    deskripsi: "ini adalah projek full stack pertama saya, dan dibuat dengan sepenuh hati secara maksimal",
+    deskripsi: "Project ini bertema pemesanan tiket bioskop, berfungsi untuk memilih film yang akan ditonton, memilih kursi bioskop, dan melakukan pemesanan sekaligus pembayaran tiket, project ini dibuat sebagai tugas akhir pelatihan Java lanjutan dengan mengimplementasikan Java Springboot menggunakan IDE IntellIJ ke dalam project website, dibuat secara berkelompok yang terdiri dari 2 orang",
     link: "https://github.com/anggipermana111/UasJavaLanjutan",
     gambar: Tiket,
-    view: null
+    view: null,
+    tech: ["Java", "Springboot", "Javascript","React","Tailwind CSS", "MySQL"]
   }, 
   {
     id: 5,
     nama: "APCinema",
-    deskripsi: "ini adalah projek full stack saya, dan dibuat dengan sepenuh hati secara maksimal",
+    deskripsi: "Project pemesanan tiket bioskop yang berfungsi untuk memilih film yang akan ditonton, memilih kursi bioskop, dan melakukan pemesanan sekaligus pembayaran tiket dengan mengimplementasikan pembayaran sandbox menggunakan Midtrans, project ini dibuat sebagai tugas akhir pelatihan React dengan mengimplementasikan React sebagai frontend dan Golang Gin sebagai Backend, menggunakan IDE VsCode dalam proses pembuatannya",
     link: "https://github.com/anggipermana111/last-project",
     gambar: APCinema,
-    view: null
+    view: null,
+    tech: ["Golang", "Gin", "Javascript","React", "Tailwind css", "PostgreSQL", "Midtrans payment"]
   }, 
   {
     id: 6,
     nama: "BidKiicks",
-    deskripsi: "ini adalah projek full stack saya, dan dibuat dengan sepenuh hati secara maksimal",
+    deskripsi: "Project yang mengambil tema lelang, berfungsi untuk penjualan barang dengan sistem lelang sekaligus jika user ingin melakukan bid untuk barang lelang yang diminati,project ini di develop menggunakan MERN (MongoDB, Express.js, React, Node.js)",
     link: "https://github.com/anggipermana111/BidKiicks",
     gambar: Bidkiick,
-    view: null
+    view: null,
+    tech: ["Javascript", "Node.js", "Express.js", "React", "MongoDB"]
   },
   {
     id: 7,
     nama: "K&TA",
-    deskripsi: "ini adalah projek full stack saya, dan dibuat dengan sepenuh hati secara maksimal",
+    deskripsi: "Project untuk reservasi bengkel online, berfungsi untuk melakukan reservasi bengkel dari jauh hari, project ini mengimplementasikan FONNTE API sebagai API external untuk fitur kirim pesan via whatsapp secara otomatis serta nodemailer untuk fitur forgot password yang akan mengirim kode OTP ke email jika user lupa password untuk login",
     gambar: Kenta,
-    view: null
+    view: null,
+    tech: ["Javascript", "Node.js", "Express.js", "React", "MySQL", "Fonnte API", "Nodemailer"]
   }
 ]
 
