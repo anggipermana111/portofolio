@@ -32,61 +32,61 @@ const certificates = [
   {
     id: 1,
     nama: "Logika Algoritma (C Language)",
-    deskripsi: "Certificate of algorithm logic training using C programming language",
+    deskripsi: "Certified in mastering algorithmic logic using the C programming language, demonstrating a strong foundation in problem-solving and computational thinking.",
     gambar: Logika
   },
   {
     id: 2,
     nama: "Struktur Data (C Language)",
-    deskripsi: "Certificate of data structure training using C programming language",
+    deskripsi: "Certified in data structure proficiency using the C programming language, showcasing expertise in efficient data organization and manipulation.",
     gambar: Struktur
   },
   {
     id: 3,
     nama: "Basis Data (MySql)",
-    deskripsi: "Certificate of database training using MySQL",
+    deskripsi: "Certified in MySQL database management, highlighting skills in designing, implementing, and optimizing robust database solutions.",
     gambar: Basis
   },
   {
     id: 4,
     nama: "Web Dasar (HTML, CSS, Javascript)",
-    deskripsi: "Certificate of basic web training using HTML, CSS, and Javascript",
+    deskripsi: "Certified in fundamental web development using HTML, CSS, and JavaScript, demonstrating the ability to create dynamic and responsive web interfaces.",
     gambar: Web
   },
   {
     id: 5,
     nama: "Java Fundamental (Swing)",
-    deskripsi: "Certificate of fundamental training and its implementation for creating desktop programs using Swing",
+    deskripsi: "Certified in fundamental Java programming and its application in building desktop applications using Swing, showcasing a solid grasp of object-oriented programming.",
     gambar: Java
   },
   {
     id: 6,
     nama: "Advanced Java (Springboot for Backend)",
-    deskripsi: "Certificate of advanced Java training using Springboot for creating APIs",
+    deskripsi: "Certified in advanced Java development using Spring Boot for backend API creation, demonstrating expertise in building scalable and efficient backend services.",
     gambar: Spring
   },
   {
     id: 7,
     nama: "Git / GitHub",
-    deskripsi: "Certificate of Git and GitHub training for collaboration in project development",
+    deskripsi: "Certified in Git and GitHub, proficient in version control and collaborative project management, essential for modern software development.",
     gambar: Github
   },
   {
     id: 8,
     nama: "React (Frontend)",
-    deskripsi: "Certificate of React training for creating frontend website projects",
+    deskripsi: "Certified in React for frontend development, showcasing the ability to build sophisticated and high-performance web applications.",
     gambar: Reacts
   },
   {
     id: 9,
     nama: "Instruktur Java Fundamental",
-    deskripsi: "Certificate as an instructor/teacher of Java Fundamentals",
+    deskripsi: "Certified as an instructor in Java Fundamentals, recognized for the ability to teach and mentor others in core Java programming concepts.",
     gambar: InstrukturJava
   },
   {
     id: 10,
     nama: "Instruktur Git/Github",
-    deskripsi: "Certificate as an instructor/teacher of Git and GitHub",
+    deskripsi: "Certified as an instructor in Git and GitHub, acknowledged for expertise in guiding teams on version control best practices and collaborative workflows.",
     gambar: InstrukturGithub
   },
 ]
