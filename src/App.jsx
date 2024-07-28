@@ -32,127 +32,129 @@ const certificates = [
   {
     id: 1,
     nama: "Logika Algoritma (C Language)",
-    deskripsi: "Certificate for training in algorithmic logic using the C programming language.",
+    deskripsi: "Certificate of algorithm logic training using C programming language",
     gambar: Logika
   },
   {
     id: 2,
     nama: "Struktur Data (C Language)",
-    deskripsi: "Certificate for training in data structures using the C programming language.",
+    deskripsi: "Certificate of data structure training using C programming language",
     gambar: Struktur
   },
   {
     id: 3,
     nama: "Basis Data (MySql)",
-    deskripsi: "Certificate for training in database management using MySQL.",
+    deskripsi: "Certificate of database training using MySQL",
     gambar: Basis
   },
   {
     id: 4,
     nama: "Web Dasar (HTML, CSS, Javascript)",
-    deskripsi: "Certificate for basic web development training using HTML, CSS, and JavaScript.",
+    deskripsi: "Certificate of basic web training using HTML, CSS, and Javascript",
     gambar: Web
   },
   {
     id: 5,
     nama: "Java Fundamental (Swing)",
-    deskripsi: "Certificate for fundamental training and implementation for creating desktop applications using Swing.",
+    deskripsi: "Certificate of fundamental training and its implementation for creating desktop programs using Swing",
     gambar: Java
   },
   {
     id: 6,
     nama: "Advanced Java (Springboot for Backend)",
-    deskripsi: "Certificate for advanced Java training using Spring Boot to create APIs.",
+    deskripsi: "Certificate of advanced Java training using Springboot for creating APIs",
     gambar: Spring
   },
   {
     id: 7,
     nama: "Git / GitHub",
-    deskripsi: "Certificate for training in Git and GitHub for collaborative project development.",
+    deskripsi: "Certificate of Git and GitHub training for collaboration in project development",
     gambar: Github
   },
   {
     id: 8,
     nama: "React (Frontend)",
-    deskripsi: "Certificate for React training to develop frontend web projects.",
+    deskripsi: "Certificate of React training for creating frontend website projects",
     gambar: Reacts
   },
   {
     id: 9,
     nama: "Instruktur Java Fundamental",
-    deskripsi: "Certificate as a Java Fundamental instructor.",
+    deskripsi: "Certificate as an instructor/teacher of Java Fundamentals",
     gambar: InstrukturJava
   },
   {
     id: 10,
     nama: "Instruktur Git/Github",
-    deskripsi: "Certificate as a Git and GitHub instructor.",
+    deskripsi: "Certificate as an instructor/teacher of Git and GitHub",
     gambar: InstrukturGithub
   },
-];
+]
 
-const enhancedCertificates = [
+const projects = [
   {
     id: 1,
-    nama: "Logika Algoritma (C Language)",
-    deskripsi: "This certificate recognizes comprehensive training in algorithmic logic, specifically using the C programming language, equipping the holder with essential problem-solving skills and foundational programming knowledge.",
-    gambar: Logika
+    nama: "Koperasi",
+    deskripsi: "This credit union project includes managing cooperative member data, member savings, member loans, and installment data for each member. This program is the final project of my algorithm logic training, which implements all the basic programming logic taught in a console project.",
+    link: "https://github.com/anggipermana111/koperasi-anggi-projekan-bahasa-C",
+    gambar: Koperasi,
+    view: null,
+    tech: ["C Language"]
   },
   {
     id: 2,
-    nama: "Struktur Data (C Language)",
-    deskripsi: "Awarded for thorough training in data structures using the C programming language, this certificate demonstrates proficiency in managing and organizing data efficiently.",
-    gambar: Struktur
+    nama: "Tricksters Movies",
+    deskripsi: "This project displays information about movies, such as movie posters, descriptions, ratings, actors, trailers, and all related data based on the TMDB API (external API). This project was created as the final assignment for basic web training, implementing HTML, CSS, and JavaScript in a website project.",
+    link: "https://github.com/anggipermana111/projek-movie",
+    gambar: Movie,
+    view: 'https://trickstersmovie.000webhostapp.com/',
+    tech: ["HTML", "CSS", "Javascript"]
   },
   {
     id: 3,
-    nama: "Basis Data (MySql)",
-    deskripsi: "This certificate signifies expert training in database management with MySQL, highlighting the ability to design, manage, and optimize databases.",
-    gambar: Basis
+    nama: "Monica Jaya",
+    deskripsi: "This project is for managing inventory at a hardware store. It was created as the final assignment for basic Java training, implementing Java Swing using the NetBeans IDE in a desktop project.",
+    link: "https://github.com/anggipermana111/projektokobangunan",
+    gambar: Inventory,
+    view: null,
+    tech: ["Java", "Swing", "MySQL"]
   },
   {
     id: 4,
-    nama: "Web Dasar (HTML, CSS, Javascript)",
-    deskripsi: "Granted for foundational web development training using HTML, CSS, and JavaScript, this certificate showcases the ability to create and style web pages with interactive elements.",
-    gambar: Web
+    nama: "Tiket Go",
+    deskripsi: "This cinema ticket booking project allows users to select movies, choose cinema seats, and make ticket reservations and payments. This project was created as the final assignment for advanced Java training, implementing Java Springboot using the IntelliJ IDE in a website project. It was developed in a group of two people.",
+    link: "https://github.com/anggipermana111/UasJavaLanjutan",
+    gambar: Tiket,
+    view: null,
+    tech: ["Java", "Springboot", "Javascript","React","Tailwind CSS", "MySQL"]
   },
   {
     id: 5,
-    nama: "Java Fundamental (Swing)",
-    deskripsi: "This certificate certifies fundamental training and practical implementation of Java for creating robust desktop applications using Swing.",
-    gambar: Java
+    nama: "APCinema",
+    deskripsi: "This cinema ticket booking project allows users to select movies, choose cinema seats, and make ticket reservations and payments, implementing sandbox payment using Midtrans. This project was created as the final assignment for React training, implementing React for the frontend and Golang Gin for the backend, using the VSCode IDE during development.",
+    link: "https://github.com/anggipermana111/last-project",
+    gambar: APCinema,
+    view: null,
+    tech: ["Golang", "Gin", "Javascript","React", "Tailwind css", "PostgreSQL", "Midtrans payment"]
   },
   {
     id: 6,
-    nama: "Advanced Java (Springboot for Backend)",
-    deskripsi: "Awarded for advanced training in Java using Spring Boot, this certificate demonstrates the capability to develop sophisticated backend systems and APIs.",
-    gambar: Spring
+    nama: "BidKiicks",
+    deskripsi: "This auction-themed project allows for the sale of items using an auction system. Users can bid on auction items they are interested in. This project was developed using MERN (MongoDB, Express.js, React, Node.js).",
+    link: "https://github.com/anggipermana111/BidKiicks",
+    gambar: Bidkiick,
+    view: null,
+    tech: ["Javascript", "Node.js", "Express.js", "React", "MongoDB"]
   },
   {
     id: 7,
-    nama: "Git / GitHub",
-    deskripsi: "This certificate acknowledges proficiency in using Git and GitHub for version control and collaborative project development, ensuring efficient teamwork and code management.",
-    gambar: Github
-  },
-  {
-    id: 8,
-    nama: "React (Frontend)",
-    deskripsi: "This certificate recognizes advanced training in React for frontend development, showcasing the ability to build dynamic and responsive web applications.",
-    gambar: Reacts
-  },
-  {
-    id: 9,
-    nama: "Instruktur Java Fundamental",
-    deskripsi: "Awarded for demonstrating expertise as an instructor in Java Fundamentals, this certificate highlights the ability to teach and mentor others in core Java programming concepts.",
-    gambar: InstrukturJava
-  },
-  {
-    id: 10,
-    nama: "Instruktur Git/Github",
-    deskripsi: "This certificate recognizes proficiency as an instructor in Git and GitHub, emphasizing the ability to guide and train others in using these essential version control tools.",
-    gambar: InstrukturGithub
-  },
-];
+    nama: "K&TA",
+    deskripsi: "This online workshop reservation project allows users to make workshop reservations in advance. It implements the FONNTE API as an external API for automatic WhatsApp messaging and Nodemailer for the forgot password feature, which sends OTP codes to the user's email if they forget their login password.",
+    gambar: Kenta,
+    view: null,
+    tech: ["Javascript", "Node.js", "Express.js", "React", "MySQL", "Fonnte API", "Nodemailer"]
+  }
+]
 
 // const certificates = [
 //   {
