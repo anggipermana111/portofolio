@@ -31,129 +31,127 @@ export const ThemeContext = createContext({
 const certificates = [
   {
     id: 1,
-    name: "Algorithmic Logic (C Language)",
-    description: "Certificate of training in algorithmic logic using the C programming language. This course provides a deep understanding of fundamental programming concepts and algorithm development.",
-    image: Logika
+    nama: "Logika Algoritma (C Language)",
+    deskripsi: "Certificate for training in algorithmic logic using the C programming language.",
+    gambar: Logika
   },
   {
     id: 2,
-    name: "Data Structures (C Language)",
-    description: "Certificate of training in data structures using the C programming language. This course covers essential data structures and their implementation, enhancing problem-solving skills.",
-    image: Struktur
+    nama: "Struktur Data (C Language)",
+    deskripsi: "Certificate for training in data structures using the C programming language.",
+    gambar: Struktur
   },
   {
     id: 3,
-    name: "Database Management (MySQL)",
-    description: "Certificate of training in database management using MySQL. This course provides comprehensive knowledge of database design, queries, and management techniques.",
-    image: Basis
+    nama: "Basis Data (MySql)",
+    deskripsi: "Certificate for training in database management using MySQL.",
+    gambar: Basis
   },
   {
     id: 4,
-    name: "Basic Web Development (HTML, CSS, JavaScript)",
-    description: "Certificate of training in basic web development using HTML, CSS, and JavaScript. This course covers the creation of responsive and interactive web pages.",
-    image: Web
+    nama: "Web Dasar (HTML, CSS, Javascript)",
+    deskripsi: "Certificate for basic web development training using HTML, CSS, and JavaScript.",
+    gambar: Web
   },
   {
     id: 5,
-    name: "Java Fundamentals (Swing)",
-    description: "Certificate of training in Java fundamentals and desktop application development using Swing. This course lays a strong foundation in Java programming and GUI design.",
-    image: Java
+    nama: "Java Fundamental (Swing)",
+    deskripsi: "Certificate for fundamental training and implementation for creating desktop applications using Swing.",
+    gambar: Java
   },
   {
     id: 6,
-    name: "Advanced Java (Spring Boot for Backend)",
-    description: "Certificate of advanced Java training using Spring Boot for backend development. This course focuses on creating robust APIs and backend services.",
-    image: Spring
+    nama: "Advanced Java (Springboot for Backend)",
+    deskripsi: "Certificate for advanced Java training using Spring Boot to create APIs.",
+    gambar: Spring
   },
   {
     id: 7,
-    name: "Git / GitHub",
-    description: "Certificate of training in Git and GitHub for collaborative project development. This course covers version control, branching, and effective collaboration techniques.",
-    image: Github
+    nama: "Git / GitHub",
+    deskripsi: "Certificate for training in Git and GitHub for collaborative project development.",
+    gambar: Github
   },
   {
     id: 8,
-    name: "React (Frontend Development)",
-    description: "Certificate of training in React for frontend web development. This course teaches how to create dynamic and high-performance user interfaces.",
-    image: Reacts
+    nama: "React (Frontend)",
+    deskripsi: "Certificate for React training to develop frontend web projects.",
+    gambar: Reacts
   },
   {
     id: 9,
-    name: "Java Fundamentals Instructor",
-    description: "Certificate of recognition as an instructor for Java Fundamentals. This certification acknowledges the ability to teach and guide students in Java programming.",
-    image: InstrukturJava
+    nama: "Instruktur Java Fundamental",
+    deskripsi: "Certificate as a Java Fundamental instructor.",
+    gambar: InstrukturJava
   },
   {
     id: 10,
-    name: "Git/GitHub Instructor",
-    description: "Certificate of recognition as an instructor for Git and GitHub. This certification highlights expertise in version control systems and the ability to educate others.",
-    image: InstrukturGithub
-  }
+    nama: "Instruktur Git/Github",
+    deskripsi: "Certificate as a Git and GitHub instructor.",
+    gambar: InstrukturGithub
+  },
 ];
 
-const projects = [
+const enhancedCertificates = [
   {
     id: 1,
-    name: "Koperasi",
-    description: "This cooperative savings and loan project includes managing cooperative member data, member savings, member loans, and installment data for each member. It serves as a final project for my algorithmic logic training, implementing all basic programming logic taught in a console project.",
-    link: "https://github.com/anggipermana111/koperasi-anggi-projekan-bahasa-C",
-    image: Koperasi,
-    view: null,
-    tech: ["C Language"]
+    nama: "Logika Algoritma (C Language)",
+    deskripsi: "This certificate recognizes comprehensive training in algorithmic logic, specifically using the C programming language, equipping the holder with essential problem-solving skills and foundational programming knowledge.",
+    gambar: Logika
   },
   {
     id: 2,
-    name: "Tricksters Movies",
-    description: "This project displays information about movies, such as posters, descriptions, ratings, actors, trailers, and all related data based on the TMDB external API. It was created as a final project for basic web development training, implementing HTML, CSS, and JavaScript.",
-    link: "https://github.com/anggipermana111/projek-movie",
-    image: Movie,
-    view: 'https://trickstersmovie.000webhostapp.com/',
-    tech: ["HTML", "CSS", "JavaScript"]
+    nama: "Struktur Data (C Language)",
+    deskripsi: "Awarded for thorough training in data structures using the C programming language, this certificate demonstrates proficiency in managing and organizing data efficiently.",
+    gambar: Struktur
   },
   {
     id: 3,
-    name: "Monica Jaya",
-    description: "This project is for managing inventory in a building material store. It was created as a final project for basic Java training, implementing Java Swing with NetBeans IDE in a desktop application.",
-    link: "https://github.com/anggipermana111/projektokobangunan",
-    image: Inventory,
-    view: null,
-    tech: ["Java", "Swing", "MySQL"]
+    nama: "Basis Data (MySql)",
+    deskripsi: "This certificate signifies expert training in database management with MySQL, highlighting the ability to design, manage, and optimize databases.",
+    gambar: Basis
   },
   {
     id: 4,
-    name: "Tiket Go",
-    description: "This cinema ticket booking project allows users to select movies, choose cinema seats, and make ticket reservations and payments. It was created as a final project for advanced Java training, implementing Java Spring Boot with IntelliJ IDEA in a group of two.",
-    link: "https://github.com/anggipermana111/UasJavaLanjutan",
-    image: Tiket,
-    view: null,
-    tech: ["Java", "Spring Boot", "JavaScript", "React", "Tailwind CSS", "MySQL"]
+    nama: "Web Dasar (HTML, CSS, Javascript)",
+    deskripsi: "Granted for foundational web development training using HTML, CSS, and JavaScript, this certificate showcases the ability to create and style web pages with interactive elements.",
+    gambar: Web
   },
   {
     id: 5,
-    name: "APCinema",
-    description: "This cinema ticket booking project allows users to select movies, choose seats, and make reservations and payments, implementing sandbox payment using Midtrans. It was created as a final project for React training, implementing React for the frontend and Golang Gin for the backend, using VS Code IDE.",
-    link: "https://github.com/anggipermana111/last-project",
-    image: APCinema,
-    view: null,
-    tech: ["Golang", "Gin", "JavaScript", "React", "Tailwind CSS", "PostgreSQL", "Midtrans payment"]
+    nama: "Java Fundamental (Swing)",
+    deskripsi: "This certificate certifies fundamental training and practical implementation of Java for creating robust desktop applications using Swing.",
+    gambar: Java
   },
   {
     id: 6,
-    name: "BidKiicks",
-    description: "This auction-themed project allows for the sale of items through an auction system, enabling users to bid on desired items. It was developed using the MERN stack (MongoDB, Express.js, React, Node.js).",
-    link: "https://github.com/anggipermana111/BidKiicks",
-    image: Bidkiick,
-    view: null,
-    tech: ["JavaScript", "Node.js", "Express.js", "React", "MongoDB"]
+    nama: "Advanced Java (Springboot for Backend)",
+    deskripsi: "Awarded for advanced training in Java using Spring Boot, this certificate demonstrates the capability to develop sophisticated backend systems and APIs.",
+    gambar: Spring
   },
   {
     id: 7,
-    name: "K&TA",
-    description: "This online workshop reservation project allows for advanced workshop reservations. It implements the FONNTE API for automatic WhatsApp messaging and Nodemailer for a password recovery feature that sends OTP codes via email.",
-    image: Kenta,
-    view: null,
-    tech: ["JavaScript", "Node.js", "Express.js", "React", "MySQL", "Fonnte API", "Nodemailer"]
-  }
+    nama: "Git / GitHub",
+    deskripsi: "This certificate acknowledges proficiency in using Git and GitHub for version control and collaborative project development, ensuring efficient teamwork and code management.",
+    gambar: Github
+  },
+  {
+    id: 8,
+    nama: "React (Frontend)",
+    deskripsi: "This certificate recognizes advanced training in React for frontend development, showcasing the ability to build dynamic and responsive web applications.",
+    gambar: Reacts
+  },
+  {
+    id: 9,
+    nama: "Instruktur Java Fundamental",
+    deskripsi: "Awarded for demonstrating expertise as an instructor in Java Fundamentals, this certificate highlights the ability to teach and mentor others in core Java programming concepts.",
+    gambar: InstrukturJava
+  },
+  {
+    id: 10,
+    nama: "Instruktur Git/Github",
+    deskripsi: "This certificate recognizes proficiency as an instructor in Git and GitHub, emphasizing the ability to guide and train others in using these essential version control tools.",
+    gambar: InstrukturGithub
+  },
 ];
 
 // const certificates = [
