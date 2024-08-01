@@ -10,7 +10,7 @@ const Header = () => {
     const location = useLocation();
     return (
         <header className={`header`}>
-            <h1 className="h1">My<span className='text-blue-700'>Portofolio</span></h1>
+            <h1 className="h1">My<span className='text-blue-700'>Portfolio</span></h1>
             <nav className='flex justify-between md:gap-10 items-center'>
                 <ul className={`ul font-semibold`}>
                     <Link to={"/"} className={`${location.pathname == "/" ? "text-blue-500" : theme == 'light' ? "text-black" : "text-white"}`}>Home</Link>
